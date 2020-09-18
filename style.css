@@ -4,7 +4,26 @@
 	padding: 0;
 }
 
-nav {
+body {
+	font-family: 'THSarabunNewRegular';
+	font-weight: normal;
+	font-style: normal;
+}
+
+#navbar {
+	position: fixed;
+	display: block;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+}
+
+#mainDoc {
 	
 }
 
+section {
+	
+}
