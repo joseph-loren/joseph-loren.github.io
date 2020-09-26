@@ -26,15 +26,39 @@ h2 {
 	font-size: 3em;
 }
 
-#small {
-	font-size: 0.5em;
+a {
+	text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: tomato;
+}
+
+/* visited link */
+a:visited {
+  color: darkblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: pink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/* label under the map */
+#mapLink {
+	font-size: smaller;
+	
 }
 
 #navbar {
 	position: fixed;
 	width: 100%;
 	background-color: #ffffff;
-	border: 2px solid #3c3c3c;
 }
 
 nav ul {
@@ -58,34 +82,47 @@ nav li {
 	justify-content: center;
 	text-align: center;
 	height: 92vh;
-	border: 2px solid #3c3c3c;
-	background-color: #efefef;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E2EEF9));
+  background-image: -webkit-linear-gradient(white, #E2EEF9);
+  background-image: -moz-linear-gradient(white, #E2EEF9);
+  background-image: -o-linear-gradient(white, #E2EEF9);
+  background-image: linear-gradient(white, #E2EEF9);
 }
 
 #projects {
-	background-color: #dfdfdf;
-	border: 1px solid black;
+  background-image: linear-gradient(#E2EEF9, #B2D0EB);
+	background-position: cover;
+	border: 0;
 }
 
 .project-tile {
 	border: 2px solid #3c3c3c;
 	border-radius: 30px;
-	background-color: #bfbfbf;
-	margin: 10px;
+  background-image: linear-gradient(#B2D0EB, #E2EEF9);
+	margin-bottom: 20px;
 	padding: 20px;
-	
+	height: 92vh;
+}
+
+#lastTile {
+	margin-bottom: 0;
 }
 
 #bio {
-	border: 1px solid black;
+	border: 0;
+	padding-top: 50px;
+	background-color: #B2D0EB;
 }
 
 #map {
 	display: block;
-	border: 1px solid black;
-	margin: 10px auto 10px auto;
+	border: 0;
+	width: 100%;
+	height: 250px;
+	margin: 10px auto 0 auto;
 }
 
 footer {
-	border: 1px solid black;
+	height: 50px;
+	background-color: #B2D0EB;
 }
