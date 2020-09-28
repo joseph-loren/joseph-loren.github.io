@@ -1,4 +1,4 @@
-* {
+*, *:before, *:after {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-	font-family: 'THSarabunNewRegular', century gothic, sans-serif;
+	font-family: 'THSarabunNewRegular', CenturyGothic, AppleGothic, sans-serif;
 	min-width: 290px;
 	color: #3c3c3c;
 	background-color: #ffffff;
@@ -69,8 +69,12 @@ nav ul {
 }
 
 nav li {
-	padding: 10px;
+	padding-top: 10px;
 	font-size: 0.5em;
+}
+
+nav li a {
+	font-size: 2em;
 }
 
 #mainDoc {
@@ -98,7 +102,7 @@ nav li {
 
 .project-tile {
   background-image: linear-gradient(white, #7DCADD, white);
-/*	padding: 20px;*/
+	padding: 3em 2em 0 2em;
 	height: 90vh;
 	scroll-snap-align: start;
 	bottom: 0;
@@ -144,4 +148,5 @@ footer {
 	bottom: 0;
 	height: 5vh;
 	background-color: white;
+	padding-bottom: 10px;
 }
