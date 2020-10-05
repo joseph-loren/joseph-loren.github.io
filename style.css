@@ -57,6 +57,7 @@ a:active {
 
 #navbar {
 	position: fixed;
+	top: 0;
 	width: 100%;
 	background-color: #ffffff;
 	height: 5vh;
@@ -78,21 +79,19 @@ nav li a {
 }
 
 #mainDoc {
-	padding-top: 5vh;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
-	max-height: 90vh;
+	height: 90vh;
 	scroll-snap-stop: always;
-	scroll-padding: 5vh;
 }
 
 #welcome-section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	text-align: center;
 	height: 90vh;
-	padding-top: 5vh;
   background-color: white;
 }
 
@@ -101,30 +100,29 @@ nav li a {
 }
 
 .project-tile {
-  background-image: linear-gradient(white, #7DCADD, white);
-	padding: 3em 2em 0 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  background-image: radial-gradient(#ececec, white);
 	height: 90vh;
 	scroll-snap-align: start;
 	bottom: 0;
 }
 
-#tribute {
-}
-
-#survey {
-}
-
-#towel {
-}
-
-#tech {
-}
-
-#meta {
+.project-tile img {
+	height: auto;
+	width: 80%;
+	margin: 0 auto 0 auto;
+	border: 0px solid #999;
+	border-radius: 10px;
 }
 
 #bio p {
 	font-size: 1.25em;
+	margin: 0.5em;
+	width: 80%;
+	text-align: left;
 }
 
 .where {
@@ -132,14 +130,16 @@ nav li a {
 	flex-direction: column;
 	justify-content: center;
 	border: 0;
-  background-image: linear-gradient(white, #7DCADD, white);
+  background-image: radial-gradient(#ececec, white);
 	height: 90vh;
 }
 
 #map {
 	display: block;
+	margin: 0 auto 0 auto;
 	border: 0;
-	width: 100%;
+	border-radius: 10px;
+	width: 80%;
 	height: 250px;
 }
 
@@ -147,6 +147,5 @@ footer {
 	position: fixed;
 	bottom: 0;
 	height: 5vh;
-	background-color: white;
 	padding-bottom: 10px;
 }
