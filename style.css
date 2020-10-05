@@ -117,7 +117,7 @@ nav li a {
 .project-tile img {
 	height: auto;
 	width: 80%;
-	margin: 0 auto 0 auto;
+	margin: 20px auto 0 auto;
 	border: 0px solid #999;
 	border-radius: 10px;
 }
@@ -166,10 +166,10 @@ footer {
 	}
 	
 	#bio {
-		line-height: 1.25em;
+		line-height: 1.33em;
 	}
 	
 	#bio h2 {
-		font-size: 1.6em;
+		font-size: 1.66em;
 	}
 }
