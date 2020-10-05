@@ -20,11 +20,15 @@ body {
 h1 {
 	font-style: bold;
 	font-size: 6em;
+	max-width: 80%;
+	margin: 0 auto 0 auto;
 }
 
 h2 {
 	font-style: bold;
 	font-size: 3em;
+	max-width: 80%;
+	margin: 0 auto 0 auto;
 }
 
 a {
@@ -148,4 +152,23 @@ footer {
 	bottom: 0;
 	height: 5vh;
 	padding-bottom: 10px;
+}
+
+/* For mobiles */
+@media only screen and (max-width: 815px) {
+	h1 {
+		font-size: 5em;
+	}
+	
+	h2 {
+		font-size: 4em;
+	}
+	
+	#bio {
+		line-height: 1em;
+	}
+	
+	#bio h2 {
+		font-size: 2em;
+	}
 }
