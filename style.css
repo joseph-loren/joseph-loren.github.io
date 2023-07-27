@@ -79,7 +79,7 @@ nav li a {
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
 	height: 90vh;
-    scroll-snap-stop: always;
+	scroll-snap-stop: always;
 }
 
 #welcome-section {
@@ -102,14 +102,14 @@ nav li a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    background-image: radial-gradient(#ececec, white);
+  background-image: radial-gradient(#ececec, white);
 	height: 90vh;
 	bottom: 0;
 }
 
 .project-tile img {
 	height: auto;
-    max-height: 50vh;
+  max-height: 50vh;
 	width: 80%;
 	margin: 20px auto 0 auto;
 	border: 0px solid #999;
@@ -132,7 +132,7 @@ nav li a {
 	flex-direction: column;
 	justify-content: center;
 	border: 0;
-    background-image: radial-gradient(#ececec, white);
+  background-image: radial-gradient(#ececec, white);
 	height: 90vh;
 }
 
